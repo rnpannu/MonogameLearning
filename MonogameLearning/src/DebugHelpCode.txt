@@ -1,0 +1,39 @@
+            // ------- Debugging Tracker for texture positions --------
+
+            //int xOffset;
+            //int yOffset;
+
+            //int tracker = 0;
+            //foreach (var item in backGround)
+            //{
+            //    tracker++;
+
+            //    if (tracker < 25 * 25){
+
+                
+            //    xOffset = (int)item.Key.X * displayTilesize;
+            //    yOffset = (int)item.Key.Y * displayTilesize;
+
+            //    Console.WriteLine("Destination Rectangle X Key: " + item.Key.X.ToString() + ", Y Key: " + item.Key.Y.ToString() + ", Value: " + item.Value.ToString());
+            //    Console.WriteLine("Destination Rectangle X Offset: " + xOffset.ToString() + ", Y Offset: " + yOffset.ToString());
+
+            //    Rectangle drect = new Rectangle(
+            //        xOffset,
+            //        yOffset,
+            //        displayTilesize,
+            //        displayTilesize
+            //        );
+
+            //    int x = item.Value % 18;
+            //    int y = item.Value / 13;
+
+            //    Console.WriteLine("Source Rectangle X: " + item.Key.X.ToString() + ", Y Key: " + item.Key.Y.ToString(), '\n');
+            //    Console.WriteLine("Source Rectangle X Offset: " + xOffset.ToString() + ", Y Offset: " + yOffset.ToString(), "\n\n");
+            //    Rectangle srect = new Rectangle(
+            //        (int)x * pixelTileSize,
+            //        (int)y * pixelTileSize,
+            //        pixelTileSize,
+            //        pixelTileSize);
+            //    }
+
+            //}
